@@ -1,0 +1,10 @@
+# github.com/go-kit/kit v0.7.0
+github.com/go-kit/kit/endpoint
+github.com/go-kit/kit/transport/http
+github.com/go-kit/kit/log
+# github.com/go-logfmt/logfmt v0.3.0
+github.com/go-logfmt/logfmt
+# github.com/go-stack/stack v1.7.0
+github.com/go-stack/stack
+# github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515
+github.com/kr/logfmt

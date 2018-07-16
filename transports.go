@@ -17,5 +17,7 @@ func decodeRequest(_ context.Context, req *http.Request) (interface{}, error) {
 }
 
 func encodeResponse(_ context.Context, w http.ResponseWriter, response interface{}) error {
+	w.Header().Set("Content-Type", "application/json")
+
 	return json.NewEncoder(w).Encode(response)
 }

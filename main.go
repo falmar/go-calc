@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	sv := &calculatorService{5}
+	sv := &calculatorService{}
 
 	sumHandler := httptransport.NewServer(
 		makeSumEndpoint(sv),
